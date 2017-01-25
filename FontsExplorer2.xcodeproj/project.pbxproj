@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0C26E0F31E3834AA009639B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26E0F21E3834AA009639B0 /* AppDelegate.swift */; };
-		0C26E0F51E3834AA009639B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26E0F41E3834AA009639B0 /* ViewController.swift */; };
 		0C26E0F81E3834AA009639B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C26E0F61E3834AA009639B0 /* Main.storyboard */; };
 		0C26E0FA1E3834AA009639B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C26E0F91E3834AA009639B0 /* Assets.xcassets */; };
 		0C26E0FD1E3834AA009639B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C26E0FB1E3834AA009639B0 /* LaunchScreen.storyboard */; };
+		0C26E1051E383528009639B0 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26E1041E383528009639B0 /* FavoritesList.swift */; };
+		0C26E10A1E384C76009639B0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26E1091E384C76009639B0 /* RootViewController.swift */; };
+		0C26E1121E38766F009639B0 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26E1111E38766F009639B0 /* FontListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C26E0EF1E3834AA009639B0 /* FontsExplorer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontsExplorer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C26E0F21E3834AA009639B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C26E0F41E3834AA009639B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C26E0F71E3834AA009639B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C26E0F91E3834AA009639B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C26E0FC1E3834AA009639B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C26E0FE1E3834AA009639B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C26E1041E383528009639B0 /* FavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		0C26E1091E384C76009639B0 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		0C26E1111E38766F009639B0 /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				0C26E0F21E3834AA009639B0 /* AppDelegate.swift */,
-				0C26E0F41E3834AA009639B0 /* ViewController.swift */,
+				0C26E1041E383528009639B0 /* FavoritesList.swift */,
+				0C26E1091E384C76009639B0 /* RootViewController.swift */,
+				0C26E1111E38766F009639B0 /* FontListViewController.swift */,
 				0C26E0F61E3834AA009639B0 /* Main.storyboard */,
 				0C26E0F91E3834AA009639B0 /* Assets.xcassets */,
 				0C26E0FB1E3834AA009639B0 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C26E0F51E3834AA009639B0 /* ViewController.swift in Sources */,
 				0C26E0F31E3834AA009639B0 /* AppDelegate.swift in Sources */,
+				0C26E1121E38766F009639B0 /* FontListViewController.swift in Sources */,
+				0C26E1051E383528009639B0 /* FavoritesList.swift in Sources */,
+				0C26E10A1E384C76009639B0 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				0C26E1031E3834AA009639B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
